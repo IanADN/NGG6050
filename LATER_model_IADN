@@ -140,6 +140,8 @@ sigma_fit = 1 ./ fits(2);
 disp(['Fitted mu (Mean): ', num2str(mu_fit)]);
 disp(['Fitted sigma (Standard Deviation): ', num2str(sigma_fit)]);
 
+% Not entirely sure how to better assess goodness of fit with this. Should try something else. 
+
 
 %% 6. Custom Functions
 %
